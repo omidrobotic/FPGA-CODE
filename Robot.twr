@@ -1,0 +1,387 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf
+
+Design file:              Robot.ncd
+Physical constraint file: Robot.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock main_clk
+--------------+------------+------------+------------+------------+------------------+--------+
+              |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source        | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+--------------+------------+------------+------------+------------+------------------+--------+
+RX            |    2.239(R)|      SLOW  |   -1.081(R)|      FAST  |main_clk_BUFGP    |   0.000|
+Robot_ID<0>   |    5.879(R)|      SLOW  |   -1.856(R)|      FAST  |main_clk_BUFGP    |   0.000|
+Robot_ID<1>   |    4.162(R)|      SLOW  |   -0.996(R)|      FAST  |main_clk_BUFGP    |   0.000|
+Robot_ID<2>   |    4.872(R)|      SLOW  |   -0.925(R)|      FAST  |main_clk_BUFGP    |   0.000|
+Robot_ID<3>   |    5.958(R)|      SLOW  |   -1.203(R)|      FAST  |main_clk_BUFGP    |   0.000|
+a_clk0        |   -0.046(R)|      FAST  |    1.389(R)|      SLOW  |main_clk_BUFGP    |   0.000|
+a_clk1        |   -0.068(R)|      FAST  |    1.411(R)|      SLOW  |main_clk_BUFGP    |   0.000|
+a_clk2        |   -0.100(R)|      FAST  |    1.457(R)|      SLOW  |main_clk_BUFGP    |   0.000|
+a_clk3        |   -0.009(R)|      FAST  |    1.352(R)|      SLOW  |main_clk_BUFGP    |   0.000|
+adc           |    4.494(R)|      SLOW  |   -0.577(R)|      SLOW  |main_clk_BUFGP    |   0.000|
+b_clk0        |   -0.077(R)|      FAST  |    1.434(R)|      SLOW  |main_clk_BUFGP    |   0.000|
+b_clk1        |   -0.036(R)|      FAST  |    1.379(R)|      SLOW  |main_clk_BUFGP    |   0.000|
+b_clk2        |   -0.072(R)|      FAST  |    1.415(R)|      SLOW  |main_clk_BUFGP    |   0.000|
+b_clk3        |   -0.040(R)|      FAST  |    1.397(R)|      SLOW  |main_clk_BUFGP    |   0.000|
+discharge_key0|    6.222(R)|      SLOW  |   -1.832(R)|      FAST  |main_clk_BUFGP    |   0.000|
+discharge_key1|    5.971(R)|      SLOW  |   -1.830(R)|      FAST  |main_clk_BUFGP    |   0.000|
+--------------+------------+------------+------------+------------+------------------+--------+
+
+Clock LB_HALL_I<0> to Pad
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                     | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                    | Phase  |
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+LB_MOSFET_O<0>|         8.923(F)|      SLOW  |         5.161(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12224_o|   0.000|
+LB_MOSFET_O<1>|         8.664(F)|      SLOW  |         5.040(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12201_o|   0.000|
+LB_MOSFET_O<2>|         9.867(F)|      SLOW  |         5.886(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12178_o|   0.000|
+LB_MOSFET_O<3>|         8.880(F)|      SLOW  |         5.106(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12155_o|   0.000|
+LB_MOSFET_O<4>|         8.928(F)|      SLOW  |         5.197(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12132_o|   0.000|
+LB_MOSFET_O<5>|         7.982(F)|      SLOW  |         4.676(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12109_o|   0.000|
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+
+Clock LB_HALL_I<1> to Pad
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                     | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                    | Phase  |
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+LB_MOSFET_O<0>|         8.893(F)|      SLOW  |         5.155(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12224_o|   0.000|
+LB_MOSFET_O<1>|         8.684(F)|      SLOW  |         5.075(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12201_o|   0.000|
+LB_MOSFET_O<2>|        10.150(F)|      SLOW  |         5.989(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12178_o|   0.000|
+LB_MOSFET_O<3>|         9.206(F)|      SLOW  |         5.275(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12155_o|   0.000|
+LB_MOSFET_O<4>|         8.806(F)|      SLOW  |         5.085(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12132_o|   0.000|
+LB_MOSFET_O<5>|         8.517(F)|      SLOW  |         4.998(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12109_o|   0.000|
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+
+Clock LB_HALL_I<2> to Pad
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                     | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                    | Phase  |
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+LB_MOSFET_O<0>|         9.262(F)|      SLOW  |         5.437(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12224_o|   0.000|
+LB_MOSFET_O<1>|         9.010(F)|      SLOW  |         5.278(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12201_o|   0.000|
+LB_MOSFET_O<2>|         9.984(F)|      SLOW  |         6.014(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12178_o|   0.000|
+LB_MOSFET_O<3>|         9.720(F)|      SLOW  |         5.676(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12155_o|   0.000|
+LB_MOSFET_O<4>|         9.460(F)|      SLOW  |         5.548(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12132_o|   0.000|
+LB_MOSFET_O<5>|         8.165(F)|      SLOW  |         4.806(F)|      FAST  |LB_direction_LB_HALL_I[2]_MUX_12109_o|   0.000|
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+
+Clock LF_HALL_I<0> to Pad
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                     | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                    | Phase  |
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+LF_MOSFET_O<0>|         9.170(F)|      SLOW  |         5.449(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11630_o|   0.000|
+LF_MOSFET_O<1>|         7.519(F)|      SLOW  |         4.385(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11607_o|   0.000|
+LF_MOSFET_O<2>|         8.727(F)|      SLOW  |         5.203(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11584_o|   0.000|
+LF_MOSFET_O<3>|         8.832(F)|      SLOW  |         5.309(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11561_o|   0.000|
+LF_MOSFET_O<4>|         8.095(F)|      SLOW  |         4.676(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11538_o|   0.000|
+LF_MOSFET_O<5>|         8.786(F)|      SLOW  |         5.213(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11515_o|   0.000|
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+
+Clock LF_HALL_I<1> to Pad
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                     | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                    | Phase  |
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+LF_MOSFET_O<0>|         9.764(F)|      SLOW  |         5.844(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11630_o|   0.000|
+LF_MOSFET_O<1>|         8.084(F)|      SLOW  |         4.804(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11607_o|   0.000|
+LF_MOSFET_O<2>|         8.712(F)|      SLOW  |         5.193(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11584_o|   0.000|
+LF_MOSFET_O<3>|         9.200(F)|      SLOW  |         5.534(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11561_o|   0.000|
+LF_MOSFET_O<4>|         8.828(F)|      SLOW  |         5.197(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11538_o|   0.000|
+LF_MOSFET_O<5>|         9.576(F)|      SLOW  |         5.738(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11515_o|   0.000|
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+
+Clock LF_HALL_I<2> to Pad
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                     | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                    | Phase  |
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+LF_MOSFET_O<0>|         9.426(F)|      SLOW  |         5.596(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11630_o|   0.000|
+LF_MOSFET_O<1>|         7.623(F)|      SLOW  |         4.423(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11607_o|   0.000|
+LF_MOSFET_O<2>|         7.695(F)|      SLOW  |         4.474(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11584_o|   0.000|
+LF_MOSFET_O<3>|         8.599(F)|      SLOW  |         5.093(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11561_o|   0.000|
+LF_MOSFET_O<4>|         8.335(F)|      SLOW  |         4.825(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11538_o|   0.000|
+LF_MOSFET_O<5>|         8.250(F)|      SLOW  |         4.798(F)|      FAST  |LF_direction_LF_HALL_I[2]_MUX_11515_o|   0.000|
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+
+Clock RB_HALL_I<0> to Pad
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                     | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                    | Phase  |
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+RB_MOSFET_O<0>|        12.417(F)|      SLOW  |         7.510(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12818_o|   0.000|
+RB_MOSFET_O<1>|         9.457(F)|      SLOW  |         5.649(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12795_o|   0.000|
+RB_MOSFET_O<2>|         8.805(F)|      SLOW  |         5.152(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12772_o|   0.000|
+RB_MOSFET_O<3>|         9.640(F)|      SLOW  |         5.723(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12749_o|   0.000|
+RB_MOSFET_O<4>|        11.098(F)|      SLOW  |         6.664(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12726_o|   0.000|
+RB_MOSFET_O<5>|        10.067(F)|      SLOW  |         5.952(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12703_o|   0.000|
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+
+Clock RB_HALL_I<1> to Pad
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                     | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                    | Phase  |
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+RB_MOSFET_O<0>|        12.186(F)|      SLOW  |         7.314(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12818_o|   0.000|
+RB_MOSFET_O<1>|         9.775(F)|      SLOW  |         5.850(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12795_o|   0.000|
+RB_MOSFET_O<2>|         8.572(F)|      SLOW  |         4.999(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12772_o|   0.000|
+RB_MOSFET_O<3>|         9.675(F)|      SLOW  |         5.683(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12749_o|   0.000|
+RB_MOSFET_O<4>|        10.872(F)|      SLOW  |         6.546(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12726_o|   0.000|
+RB_MOSFET_O<5>|         9.515(F)|      SLOW  |         5.591(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12703_o|   0.000|
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+
+Clock RB_HALL_I<2> to Pad
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                     | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                    | Phase  |
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+RB_MOSFET_O<0>|        12.128(F)|      SLOW  |         7.391(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12818_o|   0.000|
+RB_MOSFET_O<1>|         9.971(F)|      SLOW  |         5.936(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12795_o|   0.000|
+RB_MOSFET_O<2>|         9.121(F)|      SLOW  |         5.350(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12772_o|   0.000|
+RB_MOSFET_O<3>|         9.833(F)|      SLOW  |         5.844(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12749_o|   0.000|
+RB_MOSFET_O<4>|        10.946(F)|      SLOW  |         6.652(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12726_o|   0.000|
+RB_MOSFET_O<5>|        10.145(F)|      SLOW  |         6.044(F)|      FAST  |RB_direction_RB_HALL_I[2]_MUX_12703_o|   0.000|
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+
+Clock RF_HALL_I<0> to Pad
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                     | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                    | Phase  |
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+RF_MOSFET_O<0>|        10.497(F)|      SLOW  |         6.152(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13412_o|   0.000|
+RF_MOSFET_O<1>|         9.709(F)|      SLOW  |         5.846(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13389_o|   0.000|
+RF_MOSFET_O<2>|         8.041(F)|      SLOW  |         4.657(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13366_o|   0.000|
+RF_MOSFET_O<3>|         9.194(F)|      SLOW  |         5.423(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13343_o|   0.000|
+RF_MOSFET_O<4>|         9.980(F)|      SLOW  |         5.887(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13320_o|   0.000|
+RF_MOSFET_O<5>|         9.245(F)|      SLOW  |         5.512(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13297_o|   0.000|
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+
+Clock RF_HALL_I<1> to Pad
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                     | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                    | Phase  |
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+RF_MOSFET_O<0>|        10.189(F)|      SLOW  |         6.060(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13412_o|   0.000|
+RF_MOSFET_O<1>|         9.464(F)|      SLOW  |         5.693(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13389_o|   0.000|
+RF_MOSFET_O<2>|         7.964(F)|      SLOW  |         4.639(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13366_o|   0.000|
+RF_MOSFET_O<3>|         8.578(F)|      SLOW  |         5.021(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13343_o|   0.000|
+RF_MOSFET_O<4>|        10.721(F)|      SLOW  |         6.426(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13320_o|   0.000|
+RF_MOSFET_O<5>|         8.617(F)|      SLOW  |         5.098(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13297_o|   0.000|
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+
+Clock RF_HALL_I<2> to Pad
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+              |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                     | Clock  |
+Destination   |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                    | Phase  |
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+RF_MOSFET_O<0>|        10.888(F)|      SLOW  |         6.461(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13412_o|   0.000|
+RF_MOSFET_O<1>|         9.136(F)|      SLOW  |         5.448(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13389_o|   0.000|
+RF_MOSFET_O<2>|         8.456(F)|      SLOW  |         5.003(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13366_o|   0.000|
+RF_MOSFET_O<3>|         8.830(F)|      SLOW  |         5.196(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13343_o|   0.000|
+RF_MOSFET_O<4>|        10.596(F)|      SLOW  |         6.298(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13320_o|   0.000|
+RF_MOSFET_O<5>|         9.202(F)|      SLOW  |         5.474(F)|      FAST  |RF_direction_RF_HALL_I[2]_MUX_13297_o|   0.000|
+--------------+-----------------+------------+-----------------+------------+-------------------------------------+--------+
+
+Clock main_clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Buzzer      |         9.567(R)|      SLOW  |         4.275(R)|      FAST  |main_clk_BUFGP    |   0.000|
+LED2        |         9.800(R)|      SLOW  |         5.287(R)|      FAST  |main_clk_BUFGP    |   0.000|
+chip_zart   |         6.908(R)|      SLOW  |         3.520(R)|      FAST  |main_clk_BUFGP    |   0.000|
+sck         |         7.853(R)|      SLOW  |         4.091(R)|      FAST  |main_clk_BUFGP    |   0.000|
+shoot_zart  |         7.247(R)|      SLOW  |         3.743(R)|      FAST  |main_clk_BUFGP    |   0.000|
+switch_pulse|         7.364(R)|      SLOW  |         3.805(R)|      FAST  |main_clk_BUFGP    |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock LB_HALL_I<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+LB_HALL_I<0>   |         |         |    1.688|    3.423|
+LB_HALL_I<1>   |         |         |    1.538|    3.423|
+LB_HALL_I<2>   |         |         |    1.801|    3.423|
+main_clk       |         |         |    3.725|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock LB_HALL_I<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+LB_HALL_I<0>   |         |         |    1.378|    3.423|
+LB_HALL_I<1>   |         |         |    0.983|    3.423|
+LB_HALL_I<2>   |         |         |    1.246|    3.423|
+main_clk       |         |         |    3.725|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock LB_HALL_I<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+LB_HALL_I<0>   |         |         |    0.888|    3.423|
+LB_HALL_I<1>   |         |         |    1.468|    3.423|
+LB_HALL_I<2>   |         |         |    1.731|    3.423|
+main_clk       |         |         |    3.725|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock LF_HALL_I<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+LF_HALL_I<0>   |         |         |    2.003|    3.775|
+LF_HALL_I<1>   |         |         |    3.720|    3.775|
+LF_HALL_I<2>   |         |         |    2.107|    3.775|
+main_clk       |         |         |    5.131|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock LF_HALL_I<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+LF_HALL_I<0>   |         |         |    1.376|    3.775|
+LF_HALL_I<1>   |         |         |    3.093|    3.775|
+LF_HALL_I<2>   |         |         |    1.480|    3.775|
+main_clk       |         |         |    5.131|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock LF_HALL_I<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+LF_HALL_I<0>   |         |         |    1.741|    3.775|
+LF_HALL_I<1>   |         |         |    3.458|    3.775|
+LF_HALL_I<2>   |         |         |    1.845|    3.775|
+main_clk       |         |         |    5.131|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock RB_HALL_I<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+RB_HALL_I<0>   |         |         |    1.971|    3.296|
+RB_HALL_I<1>   |         |         |    3.419|    3.419|
+RB_HALL_I<2>   |         |         |    1.845|    3.296|
+main_clk       |         |         |    6.870|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock RB_HALL_I<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+RB_HALL_I<0>   |         |         |    1.811|    3.296|
+RB_HALL_I<1>   |         |         |    3.259|    3.296|
+RB_HALL_I<2>   |         |         |    1.685|    3.296|
+main_clk       |         |         |    6.870|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock RB_HALL_I<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+RB_HALL_I<0>   |         |         |    2.218|    3.296|
+RB_HALL_I<1>   |         |         |    3.666|    3.666|
+RB_HALL_I<2>   |         |         |    2.092|    3.296|
+main_clk       |         |         |    6.870|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock RF_HALL_I<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+RF_HALL_I<0>   |         |         |    2.476|    3.325|
+RF_HALL_I<1>   |         |         |    2.513|    3.325|
+RF_HALL_I<2>   |         |         |    2.287|    3.325|
+main_clk       |         |         |    8.512|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock RF_HALL_I<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+RF_HALL_I<0>   |         |         |    2.466|    3.325|
+RF_HALL_I<1>   |         |         |    1.032|    3.325|
+RF_HALL_I<2>   |         |         |    0.985|    3.325|
+main_clk       |         |         |    8.512|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock RF_HALL_I<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+RF_HALL_I<0>   |         |         |    2.587|    3.325|
+RF_HALL_I<1>   |         |         |    2.624|    3.325|
+RF_HALL_I<2>   |         |         |    2.398|    3.325|
+main_clk       |         |         |    8.512|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock main_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+main_clk       |    6.426|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Robot_ID<0>    |Buzzer         |   11.153|
+Robot_ID<1>    |Buzzer         |   10.542|
+Robot_ID<2>    |Buzzer         |   11.029|
+Robot_ID<3>    |Buzzer         |   11.953|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Mar 09 17:38:53 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 371 MB
+
+
+

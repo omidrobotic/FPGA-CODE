@@ -1,0 +1,186 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Oct 09 02:48:14 2017
+# Process ID: 4128
+# Log file: D:/New folder/OMID2/planAhead_run_3/planAhead.log
+# Journal file: D:/New folder/OMID2/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from E:/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {D:/New folder/OMID2/pa.fromNetlist.tcl}
+# create_project -name OMID2 -dir "D:/New folder/OMID2/planAhead_run_4" -part xc6slx9tqg144-3
+create_project: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 492.762 ; gain = 62.289
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/New folder/OMID2/Robot.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/New folder/OMID2} }
+# set_property target_constrs_file "robot.ucf" [current_fileset -constrset]
+Adding file 'D:/New folder/OMID2/robot.ucf' to fileset 'constrs_1'
+# add_files [list {robot.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx9tqg144-3
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Robot.ngc ...
+WARNING:NetListWriters:298 - No output is written to Robot.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus pi_data_out0<16 : 0> on block Robot is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus pi_data_out2<16 : 0> on block Robot is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus pi_data_out3<16 : 0> on block Robot is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus error0<7 : 0> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus error1<7 : 0> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus error2<7 : 0> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus error3<7 : 0> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Mmux_RB_MOTOR1[7]_RB_MOTOR1[7]_mux_729_OUT_rs_B<4 : 0> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Mmux_LF_MOTOR1[7]_LF_MOTOR1[7]_mux_759_OUT_rs_B<4 : 0> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus fifo_status<4 : 0> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus RX_ID<5 : 3> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus BUS_0001_Decoder_48_OUT<200 : 0> on
+   block Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   pi_data_out0[16]_BUS_0192_mux_1070_OUT<16 : 0> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   pi_data_out2[16]_BUS_0208_mux_1152_OUT<16 : 0> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   pi_data_out3[16]_BUS_0216_mux_1193_OUT<16 : 0> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Madd_n15204[17:0]_cy<10 : 0> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Mmult_n13660_Madd1_lut<14 : 11> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Mmult_n13660_Madd2_lut<10 : 7> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Mmult_n13646_Madd2_lut<10 : 7> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Mmult_n13646_Madd1_lut<14 : 11> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Mmult_n13674_Madd2_lut<10 : 7> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Mmult_n13674_Madd1_lut<14 : 11> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Mmult_n13632_Madd1_lut<14 : 11> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Mmult_n13632_Madd2_lut<10 : 7> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Maccum_RF_MOTOR1_lut<7 : 0> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Maccum_LF_MOTOR1_lut<7 : 0> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Maccum_RB_MOTOR1_lut<7 : 0> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Maccum_LB_MOTOR1_lut<7 : 0> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus BUS_0216_GND_5_o_div_1186/n0993<17 : 4>
+   on block Robot is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus BUS_0216_GND_5_o_div_1186/n1067<17 : 2>
+   on block Robot is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus BUS_0216_GND_5_o_div_1186/n1063<17 : 3>
+   on block Robot is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   BUS_0216_GND_5_o_div_1186/GND_10_o_BUS_0001_add_42_OUT[18:0]<16 : 0> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   BUS_0216_GND_5_o_div_1186/a[17]_a[17]_mux_1_OUT<13 : 0> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus BUS_0208_GND_5_o_div_1145/n0993<17 : 4>
+   on block Robot is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus BUS_0208_GND_5_o_div_1145/n1067<17 : 2>
+   on block Robot is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus BUS_0208_GND_5_o_div_1145/n1063<17 : 3>
+   on block Robot is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   BUS_0208_GND_5_o_div_1145/GND_10_o_BUS_0001_add_42_OUT[18:0]<16 : 0> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   BUS_0208_GND_5_o_div_1145/a[17]_a[17]_mux_1_OUT<13 : 0> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus BUS_0200_GND_5_o_div_1104/n0993<17 : 4>
+   on block Robot is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus BUS_0200_GND_5_o_div_1104/n1067<17 : 2>
+   on block Robot is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus BUS_0200_GND_5_o_div_1104/n1063<17 : 3>
+   on block Robot is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   BUS_0200_GND_5_o_div_1104/a[17]_a[17]_mux_1_OUT<13 : 0> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus BUS_0192_GND_5_o_div_1063/n0993<17 : 4>
+   on block Robot is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus BUS_0192_GND_5_o_div_1063/n1067<17 : 2>
+   on block Robot is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus BUS_0192_GND_5_o_div_1063/n1063<17 : 3>
+   on block Robot is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   BUS_0192_GND_5_o_div_1063/GND_10_o_BUS_0001_add_42_OUT[18:0]<16 : 0> on block
+   Robot is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   BUS_0192_GND_5_o_div_1063/a[17]_a[17]_mux_1_OUT<13 : 0> on block Robot is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file Robot.edif ...
+ngc2edif: Total memory usage is 97884 kilobytes
+
+Parsing EDIF File [./planAhead_run_4/OMID2.data/cache/Robot_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_4/OMID2.data/cache/Robot_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'Robot' is not ideal for floorplanning, since the cellview 'Robot' defined in file 'Robot.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+Loading clock regions from E:/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from E:/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from E:/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from E:/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from E:/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from E:/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : E:/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:/New folder/OMID2/robot.ucf]
+Finished Parsing UCF File [D:/New folder/OMID2/robot.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: 532bebfe
+link_design: Time (s): elapsed = 00:01:03 . Memory (MB): peak = 687.797 ; gain = 195.035
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See D:/New folder/OMID2\planAhead_pid4128.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Oct 09 02:51:15 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

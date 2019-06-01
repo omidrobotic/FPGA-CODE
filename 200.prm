@@ -1,0 +1,18 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o "D:\New folder\OMID2//200" -x xcf08p -u 00000000 "D:/New folder/OMID2/robot.bit" "D:/New folder/OMID2/robot.bit" 
+
+PROM D:\New folder\OMID2\200.prm map: Mon Sep 25 04:53:50 2017
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          1024K
+PROM start    0000:0000
+PROM end      000f:ffff
+PROM checksum 06929c4a
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    000a:6525     Sep 25 04:50:45 2017 D:/New folder/OMID2/robot.bit
+                               Sep 25 04:50:45 2017 D:/New folder/OMID2/robot.bit

@@ -1,0 +1,12 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            09/25/2017 - 04:53
+SOURCE          D:\New folder\OMID2\200.mcs
+DEVICE          XCF08P
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x06929C4A
+START_ADDRESS   0x00000000 END_ADDRESS 0x000A6525 DIRECTION_UP   "D:/New folder/OMID2/robot.bit" 6slx9tqg144
+                                                                 "D:/New folder/OMID2/robot.bit" 6slx9tqg144

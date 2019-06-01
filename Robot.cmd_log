@@ -1,0 +1,217 @@
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "D:/New folder/OMID2/Robot.xst" -ofn "D:/New folder/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 "Robot.ngc" Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "C:/Users/10/Desktop/fpga/OMID2/Robot.xst" -ofn "C:/Users/10/Desktop/fpga/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 Robot.ngc Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "C:/Users/10/Desktop/fpga/OMID2/Robot.xst" -ofn "C:/Users/10/Desktop/fpga/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 Robot.ngc Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "C:/Users/10/Desktop/fpga/OMID2/Robot.xst" -ofn "C:/Users/10/Desktop/fpga/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 Robot.ngc Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "C:/Users/10/Desktop/fpga/OMID2/Robot.xst" -ofn "C:/Users/10/Desktop/fpga/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 Robot.ngc Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "C:/Users/10/Desktop/fpga/OMID2/Robot.xst" -ofn "C:/Users/10/Desktop/fpga/OMID2/Robot.syr" 
+xst -intstyle ise -ifn "C:/Users/10/Desktop/fpga/OMID2/Robot.xst" -ofn "C:/Users/10/Desktop/fpga/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 Robot.ngc Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "C:/Users/10/Desktop/fpga/OMID2/Robot.xst" -ofn "C:/Users/10/Desktop/fpga/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 Robot.ngc Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "C:/Users/10/Desktop/fpga/OMID2/Robot.xst" -ofn "C:/Users/10/Desktop/fpga/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 Robot.ngc Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "G:/AB/OMID2/Robot.xst" -ofn "G:/AB/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 Robot.ngc Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "G:/AB/OMID2/Robot.xst" -ofn "G:/AB/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 Robot.ngc Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "G:/AB/OMID2/Robot.xst" -ofn "G:/AB/OMID2/Robot.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc robot.ucf -p xc6slx9-tqg144-3 Robot.ngc Robot.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Robot_map.ncd Robot.ngd Robot.pcf 
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Robot.twx Robot.ncd -o Robot.twr Robot.pcf -ucf robot.ucf 
+bitgen -intstyle ise -f Robot.ut Robot.ncd 
+xst -intstyle ise -ifn "G:/AB/OMID2/Robot.xst" -ofn "G:/AB/OMID2/Robot.syr" 

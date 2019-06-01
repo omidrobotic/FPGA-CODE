@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Apr 05 14:58:57 2017
+# Process ID: 1304
+# Log file: D:/New folder/OMID2/planAhead_run_2/planAhead.log
+# Journal file: D:/New folder/OMID2/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/New folder/OMID2/pa.fromNetlist.tcl}

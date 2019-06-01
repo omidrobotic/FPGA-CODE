@@ -1,0 +1,296 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+DESKTOP-CHQQEL9::  Sat Mar 09 17:38:14 2019
+
+par -w -intstyle ise -ol high -mt off Robot_map.ncd Robot.ncd Robot.pcf 
+
+
+Constraints file: Robot.pcf.
+Loading device for application Rf_Device from file '6slx9.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+   "Robot" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -3
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.23 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 1,567 out of  11,440   13%
+    Number used as Flip Flops:               1,441
+    Number used as Latches:                    121
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                5
+  Number of Slice LUTs:                      4,514 out of   5,720   78%
+    Number used as logic:                    4,475 out of   5,720   78%
+      Number using O6 output only:           3,108
+      Number using O5 output only:             411
+      Number using O5 and O6:                  956
+      Number used as ROM:                        0
+    Number used as Memory:                       0 out of   1,440    0%
+    Number used exclusively as route-thrus:     39
+      Number with same-slice register load:      1
+      Number with same-slice carry load:        38
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,337 out of   1,430   93%
+  Number of MUXCYs used:                     2,408 out of   2,860   84%
+  Number of LUT Flip Flop pairs used:        4,555
+    Number with an unused Flip Flop:         3,028 out of   4,555   66%
+    Number with an unused LUT:                  41 out of   4,555    1%
+    Number of fully used LUT-FF pairs:       1,486 out of   4,555   32%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of  11,440    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        67 out of     102   65%
+    Number of LOCed IOBs:                       65 out of      67   97%
+    IOB Flip Flops:                              8
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                         0 out of      32    0%
+  Number of RAMB8BWERs:                          0 out of      64    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       8 out of      16   50%
+    Number used as BUFGs:                        8
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                   8 out of     200    4%
+    Number used as ILOGIC2s:                     8
+    Number used as ISERDES2s:                    0
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     200    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     200    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            4 out of      16   25%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       2    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 3 secs 
+Finished initial Timing Analysis.  REAL time: 3 secs 
+
+Starting Router
+
+
+Phase  1  : 22705 unrouted;      REAL time: 3 secs 
+
+Phase  2  : 20531 unrouted;      REAL time: 4 secs 
+
+Phase  3  : 9400 unrouted;      REAL time: 7 secs 
+
+Phase  4  : 9939 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Updating file: Robot.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 23 secs 
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 31 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 31 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 31 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 31 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 32 secs 
+Total REAL time to Router completion: 32 secs 
+Total CPU time to Router completion: 33 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+INFO:Par:459 - The Clock Report is not displayed in the non timing-driven mode.
+Timing Score: 29305 (Setup: 29305, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|    68.023ns|     N/A|       21474
+  _counter_4_BUFG                           | HOLD        |     0.412ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net per | SETUP       |         N/A|    40.778ns|     N/A|           0
+  iod_BUFG                                  | HOLD        |     0.690ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net pi_ | SETUP       |         N/A|     4.067ns|     N/A|        1108
+  data_out2<16>                             | HOLD        |     0.485ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net RB_ | SETUP       |         N/A|     4.174ns|     N/A|           0
+  HALL_I[2]_PWR_5_o_MUX_13052_o             | HOLD        |     0.403ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net pi_ | SETUP       |         N/A|     4.471ns|     N/A|        1518
+  data_out0<8>                              | HOLD        |     0.370ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LF_ | SETUP       |         N/A|     5.788ns|     N/A|         327
+  HALL_I[2]_PWR_5_o_MUX_11864_o             | HOLD        |     0.482ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net RB_ | SETUP       |         N/A|     1.664ns|     N/A|           0
+  direction_RB_HALL_I[2]_MUX_12726_o        | HOLD        |     0.936ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net RB_ | SETUP       |         N/A|     1.662ns|     N/A|           0
+  direction_RB_HALL_I[2]_MUX_12749_o        | HOLD        |     0.934ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net RB_ | SETUP       |         N/A|     1.670ns|     N/A|           0
+  direction_RB_HALL_I[2]_MUX_12772_o        | HOLD        |     0.905ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net mai | SETUP       |         N/A|     6.426ns|     N/A|           0
+  n_clk_BUFGP                               | HOLD        |     0.380ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net pi_ | SETUP       |         N/A|     5.167ns|     N/A|        4608
+  data_out3<8>                              | HOLD        |     0.206ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net RF_ | SETUP       |         N/A|     4.588ns|     N/A|           0
+  HALL_I[2]_PWR_5_o_MUX_13646_o             | HOLD        |     0.482ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net pi_ | SETUP       |         N/A|     4.528ns|     N/A|          89
+  data_out1<8>                              | HOLD        |     0.485ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LB_ | SETUP       |         N/A|     1.662ns|     N/A|           0
+  direction_LB_HALL_I[2]_MUX_12201_o        | HOLD        |     0.934ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LB_ | SETUP       |         N/A|     4.400ns|     N/A|         181
+  HALL_I[2]_PWR_5_o_MUX_12458_o             | HOLD        |     0.347ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LB_ | SETUP       |         N/A|     1.662ns|     N/A|           0
+  direction_LB_HALL_I[2]_MUX_12155_o        | HOLD        |     0.934ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LF_ | SETUP       |         N/A|     1.663ns|     N/A|           0
+  direction_LF_HALL_I[2]_MUX_11515_o        | HOLD        |     0.935ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LF_ | SETUP       |         N/A|     1.664ns|     N/A|           0
+  direction_LF_HALL_I[2]_MUX_11561_o        | HOLD        |     0.936ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LB_ | SETUP       |         N/A|     1.664ns|     N/A|           0
+  direction_LB_HALL_I[2]_MUX_12132_o        | HOLD        |     0.936ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LB_ | SETUP       |         N/A|     1.662ns|     N/A|           0
+  direction_LB_HALL_I[2]_MUX_12178_o        | HOLD        |     0.934ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net RF_ | SETUP       |         N/A|     1.658ns|     N/A|           0
+  direction_RF_HALL_I[2]_MUX_13320_o        | HOLD        |     0.930ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net RF_ | SETUP       |         N/A|     1.592ns|     N/A|           0
+  direction_RF_HALL_I[2]_MUX_13343_o        | HOLD        |     0.884ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net RF_ | SETUP       |         N/A|     1.635ns|     N/A|           0
+  direction_RF_HALL_I[2]_MUX_13366_o        | HOLD        |     0.878ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net RF_ | SETUP       |         N/A|     1.568ns|     N/A|           0
+  direction_RF_HALL_I[2]_MUX_13297_o        | HOLD        |     0.879ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net RB_ | SETUP       |         N/A|     1.662ns|     N/A|           0
+  direction_RB_HALL_I[2]_MUX_12703_o        | HOLD        |     0.934ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net RB_ | SETUP       |         N/A|     1.668ns|     N/A|           0
+  direction_RB_HALL_I[2]_MUX_12795_o        | HOLD        |     0.903ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LB_ | SETUP       |         N/A|     1.662ns|     N/A|           0
+  direction_LB_HALL_I[2]_MUX_12224_o        | HOLD        |     0.934ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LF_ | SETUP       |         N/A|     1.662ns|     N/A|           0
+  direction_LF_HALL_I[2]_MUX_11630_o        | HOLD        |     0.934ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LF_ | SETUP       |         N/A|     1.664ns|     N/A|           0
+  direction_LF_HALL_I[2]_MUX_11538_o        | HOLD        |     0.936ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LF_ | SETUP       |         N/A|     1.637ns|     N/A|           0
+  direction_LF_HALL_I[2]_MUX_11584_o        | HOLD        |     0.880ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net RB_ | SETUP       |         N/A|     1.664ns|     N/A|           0
+  direction_RB_HALL_I[2]_MUX_12818_o        | HOLD        |     0.936ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net RF_ | SETUP       |         N/A|     1.662ns|     N/A|           0
+  direction_RF_HALL_I[2]_MUX_13412_o        | HOLD        |     0.934ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net pwm | SETUP       |         N/A|     3.501ns|     N/A|           0
+  _clk_BUFG                                 | HOLD        |     0.519ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     2.430ns|     N/A|           0
+  f01_0_BUFG                                | HOLD        |     0.443ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     2.428ns|     N/A|           0
+  f11_0_BUFG                                | HOLD        |     0.447ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     2.428ns|     N/A|           0
+  f21_0_BUFG                                | HOLD        |     0.495ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     2.260ns|     N/A|           0
+  f31_0_BUFG                                | HOLD        |     0.414ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net RF_ | SETUP       |         N/A|     1.662ns|     N/A|           0
+  direction_RF_HALL_I[2]_MUX_13389_o        | HOLD        |     0.934ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LF_ | SETUP       |         N/A|     1.664ns|     N/A|           0
+  direction_LF_HALL_I[2]_MUX_11607_o        | HOLD        |     0.936ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net LB_ | SETUP       |         N/A|     1.277ns|     N/A|           0
+  direction_LB_HALL_I[2]_MUX_12109_o        | HOLD        |     0.569ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+7 constraints not met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 32 secs 
+Total CPU time to PAR completion: 33 secs 
+
+Peak Memory Usage:  498 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 2
+
+Writing design to file Robot.ncd
+
+
+
+PAR done!

@@ -1,0 +1,80 @@
+#iranopen_2017
+#Mohammad Rasoul Abootalebi
+
+NET "main_clk" LOC = P55;
+NET "led1" LOC = P84;
+NET "led2" LOC = P85;
+NET "buzzer" LOC = P134;
+
+
+NET "robot_id[0]" LOC = P81;
+NET "robot_id[1]" LOC = P80;
+NET "robot_id[2]" LOC = P79;
+NET "robot_id[3]" LOC = P78;
+
+NET "a_clk3" LOC = p127; 
+NET "b_clk3" LOC = p126; 
+NET "a_clk2" LOC = p123; 
+NET "b_clk2" LOC = p121; 
+NET "a_clk1" LOC = p56; 
+NET "b_clk1" LOC = p51;
+NET "a_clk0" LOC = p48; 
+NET "b_clk0" LOC = p47;  
+
+NET "rx" LOC = P29;
+NET "tx" LOC = P30;
+
+NET "ce" LOC = P22;
+NET "cs" LOC = P24;
+NET "sck" LOC = P21;
+NET "mosi" LOC = P26;
+NET "miso" LOC = P23;
+
+
+NET "LF_HALL_I[0]" LOC = P44;
+NET "LF_HALL_I[1]" LOC = P43;
+NET "LF_HALL_I[2]" LOC = P45;
+NET "LF_MOSFET_O[0]" LOC = P38;
+NET "LF_MOSFET_O[1]" LOC = P34;
+NET "LF_MOSFET_O[2]" LOC = P32;
+NET "LF_MOSFET_O[3]" LOC = P40;
+NET "LF_MOSFET_O[4]" LOC = P35;
+NET "LF_MOSFET_O[5]" LOC = P33;
+
+NET "RB_HALL_I[0]" LOC = P118;
+NET "RB_HALL_I[1]" LOC = P117;
+NET "RB_HALL_I[2]" LOC = P119;
+NET "RB_MOSFET_O[0]" LOC = P115;
+NET "RB_MOSFET_O[1]" LOC = P112;
+NET "RB_MOSFET_O[2]" LOC = P105;
+NET "RB_MOSFET_O[3]" LOC = P116;
+NET "RB_MOSFET_O[5]" LOC = P111;
+NET "RB_MOSFET_O[4]" LOC = P114;
+
+NET "LB_MOSFET_O[0]" LOC = P67;
+NET "LB_MOSFET_O[1]" LOC = P64;
+NET "LB_MOSFET_O[2]" LOC = P61;
+NET "LB_MOSFET_O[3]" LOC = P74;
+NET "LB_MOSFET_O[5]" LOC = P62;
+NET "LB_HALL_I[0]" LOC = P58;
+NET "LB_HALL_I[1]" LOC = P57;
+NET "LB_HALL_I[2]" LOC = P59;
+NET "LB_MOSFET_O[4]" LOC = P27;
+
+
+NET "RF_HALL_I[2]" LOC = p133; 
+NET "RF_HALL_I[1]" LOC =  p131; 
+NET "RF_HALL_I[0]" LOC =  p132;    
+NET "RF_MOSFET_O[0]" LOC = P142;
+NET "RF_MOSFET_O[1]" LOC = P140;
+NET "RF_MOSFET_O[2]" LOC = P138;
+NET "RF_MOSFET_O[3]" LOC = P143;
+NET "RF_MOSFET_O[4]" LOC = P141;
+NET "RF_MOSFET_O[5]" LOC = P139;			 
+
+NET "adc" LOC = P102;
+NET "switch_pulse" LOC = P2;			
+NET "discharge_key0" LOC = P83;					
+NET "discharge_key1" LOC = P82;					
+NET "shoot_zart" LOC = P5;						
+NET "chip_zart" LOC = P6;
